@@ -1,18 +1,5 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
 
-/**
- * copyright 2023 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
+/*CUSTOM PROPERTY */
 :root{
   --background: hsla(220, 17%, 7%, 1);
   --banner-background: hsla(250, 6%, 20%, 1);
@@ -54,12 +41,8 @@
   --transition-long: 500ms ease;
 }
 
+/* RESET */
 
-
-
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
 *,
 *::before,
 *::after{
@@ -124,10 +107,8 @@ body {
   background-color: var(--banner-background);
   border-radius: var(--radius-8);
 }
+/* REUSED STYLE */
 
-/*-----------------------------------*\
-  #REUSED STYLE
-\*-----------------------------------*/
 .search-wrapper::before,
 .load-more::before {
   content: "";
@@ -295,13 +276,8 @@ body {
   pointer-events: none;
 }
 
+/* HEADER */
 
-
-
-
-/*-----------------------------------*\
-  #HEADER
-\*-----------------------------------*/
 .header {
   position: relative;
   padding-block: 24px;
@@ -386,13 +362,8 @@ body {
 
 .search-wrapper:focus-within .leading-icon { opacity: 0; }
 
+/* SIDEBAR */
 
-
-
-
-/*-----------------------------------*\
-  #SIDEBAR
-\*-----------------------------------*/
 .sidebar{
   position: absolute;
   background-color: var(--background);
@@ -470,13 +441,7 @@ body {
   pointer-events: all;
 }
 
-
-
-
-
-/*-----------------------------------*\
-  #HOME PAGE
-\*-----------------------------------*/
+/* HOME PAGE */
 
 .container {
   position: relative;
@@ -610,15 +575,8 @@ body {
   position: absolute;
   inset: 0;
 }
- 
 
-
-
-
-
-/*-----------------------------------*\
-  #DETAIL PAGE
-\*-----------------------------------*/
+/*  DETAIL PAGE */
 
 .backdrop-image {
   position: absolute;
@@ -664,12 +622,7 @@ body {
   min-width: 112px;
 } 
 
-
-
-
-/*-----------------------------------*\
-  #MOVIE LIST PAGE
-\*-----------------------------------*/
+/* MOVIE LIST PAGE */
 
 .genre-list .title-wrapper { margin-block-end: 5px; }
 
@@ -684,13 +637,7 @@ body {
   width: 100%;
 }
 
-
-
-
-
-/*-----------------------------------*\
-  #SEARCH MODAL
-\*-----------------------------------*/
+/* SEARCH MODAL */
 
 .search-modal {
   position: fixed;
@@ -713,13 +660,7 @@ body {
   margin-block-end: 8px;
 }
 
-
-
-
-
-/*-----------------------------------*\
-  #MEDIA QUERIES
-\*-----------------------------------*/
+/* MEDIA QUERIES */
 
 @media (min-width: 575px) {
   .banner-content {
